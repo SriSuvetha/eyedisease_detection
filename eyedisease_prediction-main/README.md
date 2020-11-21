@@ -1,1 +1,0 @@
-# eyedisease_prediction
