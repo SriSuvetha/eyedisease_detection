@@ -3,12 +3,12 @@ import numpy as np
 from skimage.io import imread
 from skimage.transform import resize
 import pickle
-from PIL import image
+from PIL import Image
 st.title("IMAGE CLASSIFICATION ")
 st.text("UPLOAD THE IMAGE")
 
 
-uploaded_file=st.file_uploaded("Choose an image"),type='jpg')
+uploaded_file=st.file_uploaded("Choose an image",type='jpg')
 if uploaded_file is not None:
   img=Image.open(uploaded_file)
   st.image(img,caption='Uploaded Image')
