@@ -1,5 +1,0 @@
-numpy
-streamlit
-sklearn
-scikit-image
-pickle
