@@ -1,2 +1,2 @@
-# eyedisease_detection
+# Eyedisease_detection
  
